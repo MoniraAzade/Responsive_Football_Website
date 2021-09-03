@@ -15,6 +15,7 @@ body{
 .mid-section{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .container{
@@ -42,7 +43,7 @@ body{
 
 .card:hover>img{
     filter: drop-shadow(8px 8px 10px rgb(187, 83, 109));
-    transform: scale(1.5)
+    transform: scale(1.5);
 }
 
 .parent{
@@ -91,3 +92,226 @@ body{
     margin-top: 500px;
     border-style:2px solid black;
 }
+
+#heading-menue-section{
+    background-color: rgb(238, 130, 130);
+}
+
+#heading-menue{
+    display: flex;
+}
+
+.left-menue{
+    display: flex;
+}
+
+.menue-options{
+    margin-top: 20px;
+    margin-left: 50px;
+    padding-right: 40px;
+    font-size: 25px;
+}
+
+.menue-options>a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+#right-menue{
+    width: 50vw;
+    text-align: right;
+}
+
+.login-btn{
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 100px;
+    background-image: linear-gradient(45deg,rgb(122, 235, 255),rgb(3, 26, 68)); 
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.login-btn:hover{
+    filter: drop-shadow(10px 10px 4px rgb(64, 64, 233));
+}
+
+.rightside-pic:hover{
+    transform: scale(1.5);
+}
+
+.background-decor:hover{
+     background-color: rgb(160, 69, 245);
+}
+
+.background-decor:hover img{
+    transition: transform .5s;
+    transform: scale(1.5) translate(-200px, 0px);
+}
+
+#highlight-section{
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+#highlight-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.heading-topline{
+    font-weight: bold;
+    font-size: 47px;
+    line-height: 60px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+.highlight-left{
+    width: 485px;
+}
+
+.highlight-right img{
+    width: 568px;
+    height: 428px;
+    margin-top: 50px;
+    filter: drop-shadow(8px 8px 10px rgb(100, 105, 109));
+}
+
+#butt-dec{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,rgb(122, 235, 255),rgb(3, 26, 68));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-left: 0;
+    margin-top: 500px;
+    border-style:2px solid black;
+}
+
+#butt-dec:hover{
+    filter: drop-shadow(10px 10px 4px rgb(64, 64, 233));
+}
+
+#para-style{
+    margin-bottom: 50px;
+}
+
+#txt-style{
+    height: 200px;
+}
+
+.button-submit{
+    background-color: #04AA6D;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    filter: drop-shadow(10px 10px 4px rgb(64, 64, 233));
+    margin-bottom: 20px;
+
+}
+
+#contact-section{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    background-image: url("../img/")
+
+}
+
+.contact-part{
+    width: 50%;
+    text-align: center;
+}
+
+.heading-contact{
+    color: black;
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 25px;
+    margin-bottom: 0;
+}
+
+.line-decor{
+    width: 50%;
+    font-size: 18px;
+    border: 3px solid rgb(175, 136, 136);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.text-bold{
+    font-weight: bold;
+    font-size: large;
+}
+
+#footer-section{
+    width: 100%;
+}
+
+#footer-part{
+    text-align: center;
+    height: 215px;
+    padding-bottom: 50px;
+}
+
+.footer-logo img{
+    margin-top: 50px;
+    width: 420px;
+    height: 110px;
+}
+
+#social-links-icons{
+    display: flex;
+    justify-content: center;
+}
+
+.social-link{
+    background-color:Black;
+    width: 42px;
+    height: 42px;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+.social-link:hover{
+    cursor: pointer;
+}
+
+.social-link img{
+    font-size: 25px;
+    position: relative;
+    top: 5px;
+}
+
+.copyright{
+    margin-top: 50px;
+    padding: 30px;
+    font-weight: bold;
+}
+
+.img-adjust{
+    width: 42px;
+    height: 42px;
+    margin-top: -5px;
+}
+
